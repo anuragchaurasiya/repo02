@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float floatingNumber = 65.35;
+    char charValue = (char)floatingNumber;
+
+    cout << charValue << endl;
+
+    return 0;
+}
