@@ -1,3 +1,4 @@
+// Concepts: variables, cin/cout, arithmetic addition, and console input.
 #include<iostream>
 using namespace std;
 int main(){
