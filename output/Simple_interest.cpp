@@ -1,3 +1,4 @@
+// Concepts: variables, console input, and simple-interest arithmetic.
 #include<iostream>
 using namespace std;
 int main(){
