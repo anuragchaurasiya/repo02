@@ -1,0 +1,31 @@
+name: C++ checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up GCC
+        run: sudo apt-get update && sudo apt-get install -y g++
+      - name: Compile maintained C++ examples
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/cpp-objects
+          index=0
+          while IFS= read -r -d '' source; do
+            echo "Compiling: $source"
+            g++ -std=c++17 -Wall -Wextra -pedantic -c "$source" -o "/tmp/cpp-objects/$index.o"
+            index=$((index + 1))
+          done < <(find . -type f -name '*.cpp' ! -path './output/*' ! -path './Basic program.cpp/output/*' -print0)
+          test "$index" -gt 0
