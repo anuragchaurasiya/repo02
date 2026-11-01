@@ -1,3 +1,4 @@
+// Concepts: functions with parameters, for loops, and counting.
 #include <iostream>
 using namespace std;
 
