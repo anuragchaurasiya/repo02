@@ -1,3 +1,4 @@
+// Concepts: switch statement, case labels, break, and default branch.
 #include <iostream>
 using namespace std;
 
