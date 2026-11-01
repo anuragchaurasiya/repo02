@@ -1,3 +1,4 @@
+// Concepts: explicit type conversion (float to char) and console output.
 #include <iostream>
 using namespace std;
 
