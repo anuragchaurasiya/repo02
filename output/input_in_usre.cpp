@@ -1,3 +1,4 @@
+// Concepts: string and integer variables, cin input, and cout output.
 #include<iostream>
 using namespace std;
 int main(){
