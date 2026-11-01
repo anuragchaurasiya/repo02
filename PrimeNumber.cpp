@@ -1,3 +1,4 @@
+// Concepts: nested loops, divisibility with modulo, boolean flags, and break.
 #include <iostream>
 using namespace std;
 
