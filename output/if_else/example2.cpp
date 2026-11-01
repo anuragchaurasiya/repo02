@@ -1,3 +1,4 @@
+// Concepts: if/else-if conditions, logical AND, comparisons, and finding the largest value.
 #include<iostream>
 using namespace std;
 int main(){
