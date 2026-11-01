@@ -1,19 +1,20 @@
 #include <iostream>
 using namespace std;
-void mulitiply_of_10(int num[], int size)
+
+void printMultiplesOfTen(int numbers[], int size)
 {
-    int count = 1;
-    for (int index = 0; index < 9; index++)
+    for (int index = 0; index < size; index++)
     {
-        num[index] = 10 * count;
-        count++;
-        cout << num[index] << endl;
+        numbers[index] = 10 * (index + 1);
+        cout << numbers[index] << endl;
     }
 }
+
 int main()
 {
-    int arr[10];
-    int size = 10;
-    mulitiply_of_10(arr, size);
+    const int size = 10;
+    int numbers[size] = {};
+
+    printMultiplesOfTen(numbers, size);
     return 0;
 }
