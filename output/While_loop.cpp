@@ -1,3 +1,4 @@
+// Concepts: while loop, loop counter, multiplication table, and console output.
 #include<iostream>
 using namespace std;
 int main(){
