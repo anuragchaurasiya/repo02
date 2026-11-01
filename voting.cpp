@@ -1,25 +1,29 @@
 #include <iostream>
 using namespace std;
-void eligibleVote(int n)
-{
 
-    if (18 >= n)
+void checkVotingEligibility(int age)
+{
+    if (age >= 18)
     {
-        cout << "eligible for vate" << endl;
+        cout << "Eligible to vote." << endl;
     }
     else
     {
-        cout << "Not eligible for vote" << endl;
+        cout << "Not eligible to vote yet." << endl;
     }
 }
+
 int main()
 {
-    int n;
+    int age;
 
-    cout << "Enter Age: ";
-    cin >> n;
+    cout << "Enter age: ";
+    if (!(cin >> age) || age < 0)
+    {
+        cout << "Please enter a valid non-negative age." << endl;
+        return 1;
+    }
 
-    eligibleVote(n);
-
+    checkVotingEligibility(age);
     return 0;
 }
