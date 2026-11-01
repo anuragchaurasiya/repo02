@@ -4,14 +4,19 @@
 
 <p align="center"><strong>Beginner-friendly C++ exercises covering syntax, arrays, loops, functions and problem solving.</strong></p>
 
-## Topics
+## Concepts Used
 
-- Variables, data types and input/output
-- Conditions and loops
-- Arrays and traversal
-- Functions
-- Type conversion
-- Number problems and basic algorithms
+| Concept | Example files | What it demonstrates |
+|---|---|---|
+| Standard input/output | `Input_Array.cpp`, `voting.cpp` | Reading values with `cin` and displaying results with `cout` |
+| Variables and data types | Beginner examples in the root and `output/` | Storing numbers, characters and calculated values |
+| Conditions | `voting.cpp`, `PrimeNumber.cpp` | `if/else` decisions and divisibility checks |
+| Loops | `Array.cpp`, `ArraySum.cpp`, `PrimeNumber.cpp` | Repeating work with `for` loops |
+| Arrays and traversal | `Array.cpp`, `ArraySum.cpp`, `Input_Array.cpp` | Storing, reading and visiting elements by index |
+| Functions and parameters | `Array.cpp`, `array_multiply.cpp`, `PrimeNumber.cpp` | Reusing logic and passing arrays or values to functions |
+| Array updates | `array_change.cpp`, `array_multiply.cpp` | Changing array elements |
+| Type conversion | `Implicit.cpp`, `Explicit.cpp` | Implicit and explicit conversions |
+| Basic validation | `Input_Array.cpp`, `voting.cpp` | Checking input before processing it |
 
 ## Selected programs
 
