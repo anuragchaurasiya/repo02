@@ -23,24 +23,40 @@
 | `PrimeNumber.cpp` | Prime number checking |
 | `voting.cpp` | Conditional logic and input validation |
 | `Implicit.cpp`, `Explicit.cpp` | Type conversion |
+| `Input_Array.cpp` | Reading and processing array input |
+
+Additional beginner exercises are organised in the `Basic program.cpp/` and `output/` folders. These are source-code examples, not compiled output directories.
 
 ## Run a program
 
-Requires a C++ compiler such as GCC:
+Requires a C++ compiler such as GCC. From the repository root:
 
 ```bash
 g++ -std=c++17 -Wall -Wextra -pedantic Array.cpp -o Array
 ./Array
 ```
 
-On Windows, run `Array.exe` from the terminal after compilation.
+For a nested example, pass its path to the compiler, for example:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic "Basic program.cpp/Add.cpp" -o Add
+./Add
+```
+
+On Windows, run the generated `.exe` file from the terminal after compilation.
 
 ## Repository layout
 
 ```text
 repo02/
+├── .github/workflows/
+│   └── cpp-ci.yml
 ├── assets/
 │   └── cpp-learning-banner.svg
+├── Basic program.cpp/
+│   └── Add.cpp
+├── output/
+│   └── beginner C++ source examples
 ├── *.cpp
 ├── .gitignore
 └── README.md
