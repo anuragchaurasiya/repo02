@@ -1,3 +1,4 @@
+// Concepts: fixed-size arrays, array traversal, function parameters, and console output.
 #include <iostream>
 using namespace std;
 
