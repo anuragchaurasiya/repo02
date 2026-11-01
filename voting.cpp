@@ -1,4 +1,5 @@
 // Concepts: functions, parameters, if/else conditions, console input, and validation.
+// Concepts: functions, parameters, if/else conditions, console input, and validation.
 #include <iostream>
 using namespace std;
 
