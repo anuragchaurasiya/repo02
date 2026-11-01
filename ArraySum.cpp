@@ -1,3 +1,4 @@
+// Concepts: array traversal, for loops, accumulator variables, and summation.
 #include <iostream>
 using namespace std;
 
