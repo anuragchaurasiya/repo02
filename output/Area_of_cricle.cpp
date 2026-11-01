@@ -1,3 +1,4 @@
+// Concepts: floating-point variables, user input, and the circle-area formula.
 #include<iostream>
 using namespace std;
 int main(){
