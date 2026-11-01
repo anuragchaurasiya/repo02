@@ -1,3 +1,4 @@
+// Concepts: integer variables, arithmetic operators, and console output.
 #include<iostream>
 using namespace std;
 int main(){
