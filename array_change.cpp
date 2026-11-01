@@ -1,3 +1,4 @@
+// Concepts: arrays, sizeof-based length calculation, indexed updates, and traversal.
 #include <iostream>
 using namespace std;
 
