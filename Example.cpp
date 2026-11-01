@@ -1,4 +1,5 @@
 // Concepts: variables, standard input with cin, and output with cout.
+// Concepts: variables, standard input with cin, and output with cout.
 #include<iostream>
 using namespace std;
 int main(){
