@@ -1,3 +1,4 @@
+// Concepts: user-defined functions, multiple parameters, return values, and multiplication.
 #include<iostream>
 using namespace std;
 int getMultiply(int a,int b,int c){
