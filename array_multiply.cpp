@@ -1,3 +1,4 @@
+// Concepts: arrays, functions, parameters, loops, and element updates.
 #include <iostream>
 using namespace std;
 
