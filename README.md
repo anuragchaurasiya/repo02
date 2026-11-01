@@ -1,59 +1,57 @@
-# 💻 C++ Programming & DSA Foundations
+# C++ Programming Foundations
 
-A structured collection of C++ practice programs covering programming fundamentals, arrays, loops, functions, number problems, type conversion and beginner problem-solving.
+<p align="center"><img src="assets/cpp-learning-banner.svg" alt="C++ Programming Foundations banner" width="100%" /></p>
 
-## 📚 Topics Covered
+<p align="center"><strong>Beginner-friendly C++ exercises covering syntax, arrays, loops, functions and problem solving.</strong></p>
 
-- C++ syntax and input/output
-- Variables and data types
-- Implicit and explicit type conversion
-- Arrays and array traversal
-- Array sum and multiplication
+## Topics
+
+- Variables, data types and input/output
+- Conditions and loops
+- Arrays and traversal
 - Functions
-- Prime number logic
-- Basic problem solving
+- Type conversion
+- Number problems and basic algorithms
 
-## 🗂️ Examples
+## Selected programs
 
-- `Array.cpp` — array traversal using a function
-- `ArraySum.cpp` — array sum practice
-- `array_multiply.cpp` — array multiplication practice
-- `PrimeNumber.cpp` — prime number logic
-- `Implicit.cpp` — implicit type conversion
-- `Explicit.cpp` — explicit type conversion
+| File | What it demonstrates |
+|---|---|
+| `Array.cpp` | Passing an array to a function |
+| `ArraySum.cpp` | Summing array elements |
+| `array_multiply.cpp` | Generating multiples using an array |
+| `PrimeNumber.cpp` | Prime number checking |
+| `voting.cpp` | Conditional logic and input validation |
+| `Implicit.cpp`, `Explicit.cpp` | Type conversion |
 
-## 🛠️ Tech Stack
+## Run a program
 
-- C++
-- Standard Library
-- Git & GitHub
-
-## ▶️ Run Locally
-
-Compile any program with a C++ compiler:
+Requires a C++ compiler such as GCC:
 
 ```bash
-g++ Array.cpp -o Array
+g++ -std=c++17 -Wall -Wextra -pedantic Array.cpp -o Array
 ./Array
 ```
 
-On Windows, run the generated executable with `Array.exe`.
+On Windows, run `Array.exe` from the terminal after compilation.
 
-## 🎯 Purpose
+## Repository layout
 
-This repository documents the progression from C++ fundamentals toward stronger data-structures and algorithmic problem solving.
+```text
+repo02/
+├── assets/
+│   └── cpp-learning-banner.svg
+├── *.cpp
+├── .gitignore
+└── README.md
+```
 
-## 🚀 Next Steps
+Generated executables and IDE build output should stay out of source control. See `.gitignore`.
 
-- STL (`vector`, `map`, `set`, `stack`, `queue`)
-- Searching and sorting
-- Recursion
-- Linked lists
-- Trees and graphs
-- Competitive programming patterns
+## Learning roadmap
 
-## 👨‍💻 Developer
+STL containers, searching, sorting, recursion, linked lists, trees and graphs.
 
-**Anurag Chaurasiya**
+## Maintainer
 
-GitHub: https://github.com/anuragchaurasiya
+[Anurag Chaurasiya](https://github.com/anuragchaurasiya)
