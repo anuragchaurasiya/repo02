@@ -1,3 +1,4 @@
+// Concepts: arrays, indexed input/output, for loops, and basic input validation.
 #include <iostream>
 using namespace std;
 
