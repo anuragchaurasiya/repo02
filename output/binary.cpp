@@ -1,3 +1,4 @@
+// Concepts: while loop, modulo, integer division, and binary-to-decimal conversion.
 #include <iostream>
 using namespace std;
 
